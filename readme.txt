@@ -6,7 +6,7 @@ If you're creating your own theme/client project open up all files and do a "Fin
 
 - - THEME - -
 
-BlankSlate WordPress Theme
+AnnaBaus WordPress Theme
 Demo: http://wp-themes.com/annabaus/
 Download: http://wordpress.org/themes/annabaus
 
@@ -24,7 +24,7 @@ http://tidythemes.com/supersimple/
 
 - - COPYRIGHT & LICENSE - -
 
-In its unchanged/original state, BlankSlate is...
+In its unchanged/original state, AnnaBaus is...
 
 © 2011-2014 TidyThemes
 GNU General Public License | https://www.gnu.org/licenses/gpl.html
