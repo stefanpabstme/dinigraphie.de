@@ -19,4 +19,69 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 
-/* Common styles for all pages */
+/* Common styles for all pages and devices (mobile first) */
+/* Body and container */
+
+/* Fonts */
+@font-face {
+    font-family: futura_book_bt;
+    src: url(fonts/futura_book_bt.ttf);
+}
+@font-face {
+    font-family: futura_lt;
+    src: url(fonts/futura_lt.ttf);
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+
+/* Paragraphs */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
