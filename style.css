@@ -41,8 +41,14 @@ body .container b,
 body footer b {
   font-family: futura_lt;
 }
+
 /* Navigation */
-/* HIER NAVI ANPASSEN */
+.show {
+  display:block;
+}
+.hide {
+  display:none;
+}
 
 /* Headings */
 h1,
