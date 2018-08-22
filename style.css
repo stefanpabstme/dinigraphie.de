@@ -43,6 +43,11 @@ body footer b {
 }
 
 /* Navigation */
+//HIER NAVI ANPASSEN
+#toggleNav {
+  cursor:pointer;
+}
+
 .show {
   display:block;
 }
