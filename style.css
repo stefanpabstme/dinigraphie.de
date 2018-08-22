@@ -19,9 +19,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 
-/* Common styles for all pages and devices (mobile first) */
-/* Body and container */
-
+/* Common styles for all pages (mobile first) */
 /* Fonts */
 @font-face {
     font-family: futura_book_bt;
@@ -31,6 +29,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-family: futura_lt;
     src: url(fonts/futura_lt.ttf);
 }
+
+/* Body and container */
+
+/* Navigation */
+//HIER NAVI ANPASSEN
 
 /* Headings */
 h1,
@@ -47,8 +50,6 @@ h2 {
 h3 {
 
 }
-
-/* Paragraphs */
 
 /* Comment */
 
