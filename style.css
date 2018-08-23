@@ -25,6 +25,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-family: futura_book_bt;
     src: url(fonts/futura_book_bt.ttf);
 }
+
 @font-face {
     font-family: futura_lt;
     src: url(fonts/futura_lt.ttf);
@@ -36,14 +37,22 @@ body div,
 body footer {
   font-family: futura_book_bt;
 }
+
 body header b,
-body .container b,
+body div b,
 body footer b {
   font-family: futura_lt;
 }
 
+header,
+#container,
+footer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Navigation */
-//HIER NAVI ANPASSEN
 #toggleNav {
   cursor:pointer;
 }
@@ -51,6 +60,7 @@ body footer b {
 .show {
   display:block;
 }
+
 .hide {
   display:none;
 }
@@ -77,32 +87,39 @@ h3 {
 
 /* Comment */
 
-/* Comment */
+/* Media queries with bootstrap breakpoints */
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+  /* Container */
+  header,
+  #container,
+  footer {
+    width: 768px;
+  }
+  /* Comment */
 
-/* Comment */
+}
 
-/* Comment */
+/* For small desktops: */
+@media only screen and (min-width: 992px) {
+  /* Container */
+  header,
+  #container,
+  footer {
+    width: 992px;
+  }
+  /* Comment */
 
-/* Comment */
+}
 
-/* Comment */
+/* For medium and large desktops: */
+@media only screen and (min-width: 1200px) {
+  /* Container */
+  header,
+  #container,
+  footer {
+    width: 1200px;
+  }
+  /* Comment */
 
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
-
-/* Comment */
+}

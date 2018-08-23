@@ -1,4 +1,4 @@
-function changeVis () {
+function toggleNav () {
   var navbar = document.getElementById("menu");
 
   if(navbar.classList.contains('hide')) {
