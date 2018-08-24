@@ -1,7 +1,7 @@
 <?php /* Template Name: Project */ ?>
 <?php get_header(); ?>
-<div class="project_arrow left">Zurueck</div>
-<div class="project_arrow right">Weiter</div>
+<div class="project_arrow left">&#8249;</div>
+<div class="project_arrow right">&#8250;</div>
 <section id="content" role="main">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
