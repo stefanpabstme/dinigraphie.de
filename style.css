@@ -54,6 +54,7 @@ body footer b {
 }
 
 #header {
+  margin-top: 40px; /* nur zum Entwickeln */
   position: fixed;
   width: 100%;
   top: 0;
