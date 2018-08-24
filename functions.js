@@ -1,5 +1,5 @@
 function toggleNav () {
-  var navbar = document.getElementById("menu");
+  var navbar = document.getElementById("nav_overlay");
 
   if(navbar.classList.contains('hide')) {
     navbar.classList.remove('hide');

@@ -15,16 +15,20 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
-<section id="branding">
-	<div id="site-title">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-			<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo 'Anna Baus - Atelier für visuelle Kommunikation'; } else { echo 'AB - AFVK'; } ?>
-		</a>
+	<div class="container">
+		<section id="branding">
+			<div id="site-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+					<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo 'Anna Baus - Atelier für visuelle Kommunikation'; } else { echo 'AB - AFVK'; } ?>
+				</a>
+				<span id="toggleNav" onclick="toggleNav()">+</span>
+			</div>
+		</section>
+		<div id="nav_overlay" class="hide">
+			<nav id="menu" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+			</nav>
+		</div>
 	</div>
-</section>
-<section id="toggleNav" onclick="toggleNav()">+</section>
-	<nav id="menu" class="show" role="navigation">
-		<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-	</nav>
 </header>
-<div id="container">
+<div class="container" id="main_container">
