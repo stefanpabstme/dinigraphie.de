@@ -9,9 +9,34 @@
 <h1 class="entry-title"><?php the_title(); ?></h1> <?php edit_post_link(); ?>
 </header>
 <section class="entry-content">
-<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-<?php the_content(); ?>
-<div class="entry-links"><?php wp_link_pages(); ?></div>
+  <?php
+  // the query
+  $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category'=>3, 'posts_per_page'=>-1)); ?>
+
+  <?php if ( $wpb_all_query->have_posts() ) : ?>
+
+  <ul>
+
+      <!-- the loop -->
+      <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+        <li>
+          <section>
+            <h2><?php the_title(); ?></h2>
+            <div class="project_content">
+              <?php the_content(); ?>
+            </div>
+          </section>
+        </li>
+      <?php endwhile; ?>
+      <!-- end of the loop -->
+
+  </ul>
+
+      <?php wp_reset_postdata(); ?>
+
+  <?php else : ?>
+      <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+  <?php endif; ?>
 </section>
 </article>
 <?php if ( ! post_password_required() ) comments_template( '', true ); ?>
