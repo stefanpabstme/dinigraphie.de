@@ -12,26 +12,20 @@
   <?php
   // the query
   $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); //category 3 = projects
-  ?> 
+  ?>
 
   <?php if ( $wpb_all_query->have_posts() ) : ?>
+  <!-- the loop -->
+  <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+  <section>
+    <h2><?php the_title(); ?></h2>
+    <div class="project_content">
+      <?php the_content(); ?>
+    </div>
+  </section>
+  <?php endwhile; ?>
+  <!-- end of the loop -->
 
-  <ul>
-
-      <!-- the loop -->
-      <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-        <li>
-          <section>
-            <h2><?php the_title(); ?></h2>
-            <div class="project_content">
-              <?php the_content(); ?>
-            </div>
-          </section>
-        </li>
-      <?php endwhile; ?>
-      <!-- end of the loop -->
-
-  </ul>
 
       <?php wp_reset_postdata(); ?>
 
