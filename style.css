@@ -32,12 +32,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Fonts */
 @font-face {
     font-family: futura_book_bt;
-    src: url(fonts/futura_book_bt.ttf);
+    src: url(futura_book_bt.ttf);
 }
 
 @font-face {
     font-family: futura_lt;
-    src: url(fonts/futura_lt.ttf);
+    src: url(futura_lt.ttf);
 }
 
 /* Body and container */
