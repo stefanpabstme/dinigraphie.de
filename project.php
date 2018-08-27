@@ -10,55 +10,39 @@
 </header>
 <section class="entry-content">
   <?php
-  // the query
-  $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); //category 3 = projects
-  ?>
-  <?php if ( $wpb_all_query->have_posts() ) : ?>
-  <!-- the loop -->
-  <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-  <section>
-    <h2><?php the_title(); ?></h2>
-    <div class="project_content">
-      <?php the_content(); ?>
-    </div>
-  </section>
-  <?php endwhile; ?>
-  <!-- end of the loop -->
-  <?php wp_reset_postdata(); ?>
-  <?php else : ?>
-      <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    // the query
+    $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); //category 3 = projects
+
+    $carousel_indicators = '';
+    $carousel_items = '';
+    $count = 0;
+    $active = '';
+
+    if ( $wpb_all_query->have_posts() ) :
+      while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post();
+        if ($count === 0) {$active = 'active';}
+        $carousel_indicators .= '<li data-target="#myCarousel" data-slide-to="' . $count . '" class="' . $active . '"></li>';
+        $carousel_items .= '<div class="item ' . $active . '">';
+        $carousel_items .= get_the_content();
+        $carousel_items .= '</div>';
+        $count++;
+        $active = '';
+      endwhile;
+      wp_reset_postdata();
+      else : ?>
+      <p><?php _e( 'Keine passenden Posts gefunden.' ); ?></p>
   <?php endif; ?>
 </section>
 
-<h2>Carousel Example</h2>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <?php echo $carousel_indicators; ?>
   </ol>
-
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-      <img src="la.jpg" alt="Los Angeles" style="width:100%;">
-    </div>
-
-    <div class="item">
-      <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-      Lalala <br />
-      Lalala <br />
-      Lalala <br />
-      Lalala <br />
-      Lalala <br />
-    </div>
-
-    <div class="item">
-      <img src="ny.jpg" alt="New york" style="width:100%;">
-    </div>
+    <?php echo $carousel_items; ?>
   </div>
-
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
