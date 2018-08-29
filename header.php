@@ -18,9 +18,11 @@
 	<div class="container">
 		<section id="branding">
 			<div id="site-title">
-				<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-					<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo 'Anna Baus - Atelier für visuelle Kommunikation'; } else { echo 'AB - AFVK'; } ?>
-				</a>
+				<div class="homelink">
+					<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+						<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo 'Anna Baus - Bureau für visuelle Kommunikation'; } else { echo 'AB - BFVK'; } ?>
+					</a>
+				</div>
 				<span id="toggleNav" onclick="toggleNav()">+</span>
 			</div>
 		</section>
