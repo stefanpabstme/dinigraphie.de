@@ -106,6 +106,10 @@ body footer b {
 #main_container,
 #nav_overlay {
   margin-top: 100px; /* Sollte so groß wie die header height sein */
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 #nav_overlay {
