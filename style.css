@@ -140,6 +140,19 @@ h3 {
 
 /* Comment */
 
+/* Comment */
+
+/* Comment */
+
+/* Contact form */
+.nf-form-title,
+.nf-before-form-content,
+.nf-field-label {
+  display:none;
+}
+
+/* Comment */
+
 /* Media queries with bootstrap breakpoints */
 /* For tablets: */
 @media only screen and (min-width: 768px) {
