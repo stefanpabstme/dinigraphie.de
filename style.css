@@ -70,16 +70,20 @@ body footer b {
 /* Navigation */
 #toggleNav {
   cursor:pointer;
-  position: absolute;
+  float:right;
   right: 30px;
-  color:blue;
+  color:black;
   font-size:50px;
   top:0px;
 }
 
 .nav-link {
-  color:blue;
+  color:black;
   font-size:50px;
+}
+
+.menu-item {
+  font-size:75px;
 }
 
 #main_container,
