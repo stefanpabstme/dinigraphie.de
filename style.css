@@ -30,11 +30,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .rotated {
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -moz-transform: rotate(45deg); /* Firefox */
-  -webkit-transform: rotate(45deg); /* Safari and Chrome */
-  -o-transform: rotate(45deg); /* Opera */
+  transform: rotate(405deg);
+  -ms-transform: rotate(405deg); /* IE 9 */
+  -moz-transform: rotate(405deg); /* Firefox */
+  -webkit-transform: rotate(405deg); /* Safari and Chrome */
+  -o-transform: rotate(405deg); /* Opera */
 }
 
 /* Fonts */
@@ -83,6 +83,10 @@ body footer b {
   color:black;
   font-size:50px;
   top:0px;
+  -webkit-transition: 2s ease-in-out;
+  -moz-transition: 2s ease-in-out;
+  -o-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 .homelink {
