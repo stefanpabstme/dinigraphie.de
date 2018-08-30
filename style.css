@@ -147,7 +147,8 @@ h3 {
 /* Contact form */
 .nf-form-title,
 .nf-before-form-content,
-.nf-field-label {
+.nf-field-label,
+.typed-cursor {
   display:none;
 }
 
