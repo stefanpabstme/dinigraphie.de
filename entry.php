@@ -1,5 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header>
+  //Include post (project) title
   <?php
   if (is_singular()) {
     echo '<h1 class="entry-title">';
@@ -18,8 +19,10 @@
     echo '</h2>';
   }
   ?>
+  //Include edit post link
   <?php edit_post_link(); ?>
 </header>
+//Include entry-content.php
 <?php
 get_template_part('entry', 'content');
 ?>
