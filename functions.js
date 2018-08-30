@@ -16,7 +16,7 @@ function toggleNav () {
 
 
 $(document).ready(function() {
-  //Comment
+  //Document ready halt :D
 });
 
 //ninjaforms ready function
