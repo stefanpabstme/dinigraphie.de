@@ -19,7 +19,7 @@
   }
   ?>
   <?php edit_post_link(); ?>
-  </header>
-  <?php
-  get_template_part('entry', 'content');
-  ?>
+</header>
+<?php
+get_template_part('entry', 'content');
+?>
