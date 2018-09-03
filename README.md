@@ -7,8 +7,11 @@ TODOs:
 KONTAKTFORMULAR
 -Design anpassen
 -Text anpassen
--Mail Feld erst einblenden, wenn man im Message Feld anfängt zu tippen bzw das anklickt.
--Mail Feld generell
+-Andere Felder erst einblenden, wenn man im Message Feld anfängt zu tippen bzw das anklickt.
+-Name
+-Email
+-Telefon
+-Datenschutz gelesen
 -Captcha?
 
 PROJEKTSEITE
@@ -17,3 +20,5 @@ PROJEKTSEITE
 NAVIGATION
 -Aufbau?
 -Wenn zwei Ebenen: Dropdown? Oder einfach nur optisch abgrenzen?
+
+SCHRIFT

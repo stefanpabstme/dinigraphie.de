@@ -53,12 +53,14 @@ body #header,
 body div,
 body footer {
   font-family: futura_book_bt;
+  color: #000;
 }
 
 body #header b,
 body div b,
 body footer b {
   font-family: futura_lt;
+  color: #000;
 }
 
 #header {
@@ -73,6 +75,33 @@ body footer b {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Headings, text, links, ... */
+h1,
+h2,
+h3 {
+  font-family: futura_lt;
+  padding: 0 0 35px 0;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 26px;
+}
+p {
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+  color: #000;
 }
 
 /* Navigation */
@@ -116,22 +145,6 @@ body footer b {
   left: 0;
   z-index: 10000;
   text-align: center;
-}
-
-/* Headings */
-h1,
-h2,
-h3 {
-
-}
-h1 {
-
-}
-h2 {
-
-}
-h3 {
-
 }
 
 /* Comment */
