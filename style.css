@@ -34,20 +34,19 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     src: url(Abuget.ttf);
 }
 
+@font-face {
+    font-family: BubblerOne-Regular;
+    src: url(BubblerOne-Regular.ttf);
+}
+
 /* Body and container */
 body #header,
 body div,
 body footer {
-  font-family: futura_book_bt;
+  font-family: BubblerOne-Regular;
   color: #000;
 }
 
-body #header b,
-body div b,
-body footer b {
-  font-family: futura_lt;
-  color: #000;
-}
 
 #header {
   width: 100%;
@@ -77,6 +76,7 @@ h2 {
   font-size: 28px;
 }
 h3 {
+  font-family: BubblerOne-Regular;
   font-size: 23px;
 }
 p {
