@@ -20,6 +20,7 @@
 <header id="header" role="banner">
 <div class="container">
 <section id="branding">
+<h1>test</h1>
 <div id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><img class="header-img" src="<?php echo get_template_directory_uri()?>/header.png"></a></div>
 </section>
 <nav id="menu" role="navigation">
