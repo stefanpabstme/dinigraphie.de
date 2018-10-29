@@ -98,7 +98,7 @@ a:hover {
 }
 .entry-title {
   position: absolute;
-  top: -10px;
+  top: -20px;
   left: 30px;
   z-index: 1;
 }
@@ -180,6 +180,34 @@ footer#footer a:hover {
   .container {
     width: 748px;
   }
+  /* Navigation */
+  #menu {
+    background-color: #FFF;
+    padding: 0;
+    text-align: right;
+  }
+  .menu-main-container {
+    background-color: #FFF;
+  }
+  #menu-main {
+    padding: 10px 0;
+  }
+  #menu-main .menu-item {
+    display: inline-block;
+  }
+  #menu-main .menu-item a {
+    border: none;
+    margin: 0;
+    display: block;
+    padding: 0;
+  }
+
+  /* Comment */
+
+  /* Comment */
+
+  /* Comment */
+
   /* Comment */
 
 }
