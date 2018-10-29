@@ -20,10 +20,15 @@
 		<header id="header" role="banner">
 			<div class="container">
 				<section>
-					<span>Logo</span>
+					<span><img id="site-logo" src="<?php echo get_template_directory_uri() ?>/Dinigraphie_Logo_transparent_291018.png" /></span>
 				</section>
 				<nav id="menu" role="navigation">
-					<span id="toggleNav" onclick="toggleNav()">toggleNav</span>
+					<span id="toggleNav" onclick="toggleNav()">
+						Menu
+						<span>
+							<img id="toggleNavButton" src="<?php echo get_template_directory_uri() ?>/Blende_transparent_schwarz_291018.png" />
+						</span>
+					</span>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 				</nav>
 				<section id="branding">

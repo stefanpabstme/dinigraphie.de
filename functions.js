@@ -32,9 +32,9 @@ function toggleNav () {
 
 $(document).ready(function() {
   //Document ready halt :D
-  if (w_height > w_width) {
-    toggleNav();
-  }
+  //if (w_width > 768px) {
+  //  toggleNav();
+  //}
 });
 
 
