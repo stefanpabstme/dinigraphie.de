@@ -93,6 +93,15 @@ a:hover {
 }
 
 /* Header */
+#branding {
+  position: relative;
+}
+.entry-title {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  z-index: 1;
+}
 #entry-image {
   position: relative;
 }
