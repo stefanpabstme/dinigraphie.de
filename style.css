@@ -93,12 +93,21 @@ a:hover {
 }
 
 /* Header */
-.header-img {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:100%;
-  height:auto;
+#entry-image {
+  position: relative;
+}
+#entry-image .header-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+.obj-pos-left {
+  object-position: left;
+}
+.obj-pos-right {
+  object-position: right;
 }
 
 /* Navigation */
@@ -160,7 +169,7 @@ footer#footer a:hover {
   /* Container */
   #container,
   .container {
-    width: 768px;
+    width: 748px;
   }
   /* Comment */
 
@@ -171,7 +180,7 @@ footer#footer a:hover {
   /* Container */
   #container,
   .container {
-    width: 992px;
+    width: 972px;
   }
   /* Comment */
 
@@ -182,7 +191,7 @@ footer#footer a:hover {
   /* Container */
   #container,
   .container {
-    width: 1200px;
+    width: 1180px;
   }
   /* Comment */
 

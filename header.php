@@ -27,7 +27,12 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 				</nav>
 				<section id="branding">
-					<div id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'header-intro-image', array( 'class' => 'header-img' ) ); } ?></a></div>
+					<h1 class="entry-title"><?php the_title(); ?></h1> <?php edit_post_link(); ?>
+					<div id="entry-image">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+							<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'header-intro-image', array( 'class' => 'header-img' ) ); } ?>
+						</a>
+					</div>
 				</section>
 			</div>
 		</header>
