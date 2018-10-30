@@ -8,4 +8,6 @@
 
 -Footer wie im Entwurf
 
+-Content generell
+
 -Content responsive gestalten
