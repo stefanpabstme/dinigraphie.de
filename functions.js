@@ -1,8 +1,8 @@
 //set height of entry image in proportion to screen height
 var w_height = jQuery(window).height();
 var w_width = jQuery(window).width();
-var bg_height = w_height * 0.7;
-var bg_height_mobile = w_height * 0.80;
+var bg_height = w_height * 0.8;
+var bg_height_mobile = w_height * 0.60;
 
 if (w_height <= w_width) {
   jQuery( '#entry-image' ).css('height', bg_height);
