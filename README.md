@@ -8,6 +8,10 @@
 
 -Footer wie im Entwurf
 
--Content generell
+-Galerien
+
+-Kontaktformular
+
+-Restlicher Content
 
 -Content responsive gestalten
