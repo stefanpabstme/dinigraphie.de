@@ -2,6 +2,8 @@
 
 -Mobile Navi animieren (Langsam auf- und zuklappen + Blende dabei drehen)
 
+-Logo verlinken, entry-image Verlinkung entfernen
+
 -Feinabstimmung Navi, entry-title, entry-image
 
 -Footer wie im Entwurf
