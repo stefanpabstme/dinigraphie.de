@@ -4,8 +4,6 @@
 
 -Feinabstimmung Navi, entry-title, entry-image
 
--Abstände
-
 -Footer wie im Entwurf
 
 -Galerien
@@ -14,4 +12,6 @@
 
 -Restlicher Content
 
--Content responsive gestalten
+-Feinabstimmung Schriftgrößen und Abstände
+
+-Checken, ob der Content sich responsive verhält und ggf anpassen
