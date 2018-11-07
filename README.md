@@ -14,16 +14,16 @@
 
 -Logo verlinken, entry-image Verlinkung entfernen
 
--Feinabstimmung Navi, entry-title, entry-image >> Dini
-
 -Footer wie im Entwurf
-
--Galerien >> Dini
 
 -Kontaktformular
 
--CSS für restlichen Content >> Dini
+-Objekte wie Logo usw im Contentbereich richtig einbetten
+
+-Galerien >> Dini
 
 -Feinabstimmung Schriftgrößen und Abstände >> Dini
+
+-Feinabstimmung Navi, entry-title, entry-image >> Dini
 
 -Checken, ob der Content sich responsive verhält und ggf anpassen
