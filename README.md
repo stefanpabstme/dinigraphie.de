@@ -4,6 +4,8 @@
 
 -Favicon erstellen
 
+-Alle im Entwurf verwendeten Icons verzippen und an Stefan schicken
+
 -Texte in Kontaktseite einfügen
 
 -Galerien einpflegen >> Stefan
