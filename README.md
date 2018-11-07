@@ -2,11 +2,11 @@
 
 ## Dini
 
--Favicon
+-Favicon erstellen
 
--Texte Kontakt
+-Texte in Kontaktseite einfügen
 
--Galerien einpflegen
+-Galerien einpflegen >> Stefan
 
 ## Stefan
 
