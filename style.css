@@ -187,6 +187,7 @@ footer#footer a:hover {
   .container {
     width: 748px;
   }
+
   /* Navigation */
   #toggleNav {
     display: none;
@@ -229,6 +230,29 @@ footer#footer a:hover {
   .container {
     width: 972px;
   }
+
+  /* Navigation */
+  #wrapper {
+    padding-top: 50px;
+  }
+  #menu {
+    position: fixed;
+    top: 0;
+    left: 50%;
+  }
+
+  /* Logo */
+  .site-logo {
+    text-align: center;
+  }
+  #site-logo {
+    height: 130px;
+  }
+
+  /* Comment */
+
+  /* Comment */
+
   /* Comment */
 
 }

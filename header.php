@@ -19,7 +19,7 @@
 	<div id="wrapper" class="hfeed">
 		<header id="header" role="banner">
 			<div class="container">
-				<section>
+				<section class="site-logo">
 					<span><img id="site-logo" src="<?php echo get_template_directory_uri() ?>/Dinigraphie_Logo_transparent_291018.png" /></span>
 				</section>
 				<nav id="menu" role="navigation">
