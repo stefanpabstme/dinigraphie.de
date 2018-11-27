@@ -18,17 +18,19 @@
 
 ## Stefan
 
--Normale Navi ausrichten
+-Normale Navi ausrichten  DONE
 
 -Mobile Navi animieren (Langsam auf- und zuklappen + Blende dabei drehen)
 
--Logo verlinken, entry-image Verlinkung entfernen
+-Logo verlinken, entry-image Verlinkung entfernen  DONE
 
--Footer wie im Entwurf
+-Footer wie im Entwurf  DONE
 
 -Kontaktformular
 
--Objekte wie Logo usw im Contentbereich richtig einbetten
+-Objekte wie Logo und Icons usw im Contentbereich richtig einbetten
+
+-Favicon einbinden
 
 -Galerien >> Dini
 
