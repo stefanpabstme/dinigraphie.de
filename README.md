@@ -18,7 +18,7 @@
 
 ## Stefan
 
--Normale Navi ausrichten
+-Normale Navi exakt mittig ausrichten
 
 -Mobile Navi animieren (Langsam auf- und zuklappen + Blende dabei drehen)
 
@@ -26,7 +26,7 @@
 
 -Footer wie im Entwurf  DONE
 
--Kontaktformular
+-Kontaktformular  DONE
 
 -Objekte wie Logo und Icons usw im Contentbereich richtig einbetten
 
