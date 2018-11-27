@@ -37,3 +37,5 @@
 -Feinabstimmung Navi, entry-title, entry-image >> Dini
 
 -Checken, ob der Content sich responsive verhält und ggf anpassen
+
+-wpadminbar wieder einblenden
