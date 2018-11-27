@@ -20,7 +20,9 @@
 		<header id="header" role="banner">
 			<div class="container">
 				<section class="site-logo">
-					<span><img id="site-logo" src="<?php echo get_template_directory_uri() ?>/Dinigraphie_Logo_transparent_291018.png" /></span>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
+						<span><img id="site-logo" src="<?php echo get_template_directory_uri() ?>/Dinigraphie_Logo_transparent_291018.png" /></span>
+					</a>
 				</section>
 				<nav id="menu" role="navigation">
 					<span id="toggleNav" onclick="toggleNav()">
@@ -33,11 +35,14 @@
 				</nav>
 				<section id="branding">
 					<h1 class="entry-title"><?php the_title(); ?></h1> <?php edit_post_link(); ?>
-					<div id="entry-image">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">
-							<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'header-intro-image', array( 'class' => 'header-img' ) ); } ?>
-						</a>
-					</div>
+					<?php if ( has_post_thumbnail() ) {
+						echo '<div id="entry-image">';
+							the_post_thumbnail( 'header-intro-image', array( 'class' => 'header-img' ) );
+						echo '</div>';
+					}
+					else {
+						echo '<div id="no-entry-image">';
+					} ?>
 				</section>
 			</div>
 		</header>

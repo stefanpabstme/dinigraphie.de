@@ -2,12 +2,15 @@
     </div>
     <footer id="footer" role="contentinfo">
       <div class="container">
-        <div id="copyright">
-          <?php echo sprintf( __( '%1$s %2$s'), '&copy;', date( 'Y' ), esc_html( get_bloginfo( 'name' ) ) ); ?> /
-          <a href="<?php echo site_url(); ?>/kontakt">Kontakt</a> /
-          <a href="<?php echo site_url(); ?>/impressum">Impressum</a> /
-          <a href="<?php echo site_url(); ?>/datenschutz">Datenschutz</a>
+        <div id="socialmedia">
+          <a href="https://www.facebook.com/Dinigraphie/" target="_blank">FB ICON</a>&nbsp;<a href="https://www.instagram.com/dinigraphie/" target="_blank">INSTA ICON</a>
         </div>
+          <div id="copyright">
+            <?php echo sprintf( __( '%1$s %2$s'), '&copy;', date( 'Y' ), esc_html( get_bloginfo( 'name' ) ) ); ?> /
+            <a href="<?php echo site_url(); ?>/kontakt">Kontakt</a> /
+            <a href="<?php echo site_url(); ?>/impressum">Impressum</a> /
+            <a href="<?php echo site_url(); ?>/datenschutz">Datenschutz</a>
+          </div>
       </div>
     </footer>
   </div>

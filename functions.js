@@ -14,6 +14,7 @@ if (w_height > w_width) {
 
 
 //Navigation
+//toggle navigation function
 function toggleNav () {
   var navbar = document.getElementById("menu-main");
   var navButton = document.getElementById('toggleNav');
@@ -29,12 +30,20 @@ function toggleNav () {
   }
 }
 
+if (w_width < "768") {
+  toggleNav();
+}
+if (w_width >= "768") {
+  //center up desktop navigation
+  var menu_width = $(".menu-main-container").width();
+  var leftMar = menu_width * 0.5 * (-1);
+  document.querySelector(".menu-main-container").id = 'menu-main-container';
+  $("#menu-main-container").css({ marginLeft : leftMar });
+}
+
 
 $(document).ready(function() {
-  //Document ready halt :D
-  //if (w_width > 768px) {
-  //  toggleNav();
-  //}
+
 });
 
 
