@@ -8,9 +8,17 @@
 
 -Texte in Kontaktseite einfügen
 
--Galerien einpflegen >> Stefan
+-Galerien einpflegen
+
+-Checken ob Metadaten von Bildern übernommen werden
+
+-Datenschutz Grundverordnung (DSGVO) >> Stefan
+
+-Search Engine Optimizing (SEO) >> Stefan
 
 ## Stefan
+
+-Normale Navi ausrichten
 
 -Mobile Navi animieren (Langsam auf- und zuklappen + Blende dabei drehen)
 
