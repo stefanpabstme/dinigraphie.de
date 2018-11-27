@@ -18,7 +18,7 @@
 
 ## Stefan
 
--Normale Navi ausrichten  DONE
+-Normale Navi ausrichten
 
 -Mobile Navi animieren (Langsam auf- und zuklappen + Blende dabei drehen)
 
