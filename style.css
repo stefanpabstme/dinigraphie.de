@@ -183,6 +183,9 @@ footer#footer #socialmedia {
   top: 5px;
   left: 5px;
 }
+footer#footer #socialmedia .ftr_icon {
+  width: 30px;
+}
 footer#footer #copyright {
   position: absolute;
   bottom: 5px;
