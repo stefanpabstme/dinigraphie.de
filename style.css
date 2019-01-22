@@ -150,6 +150,7 @@ a:hover {
   margin: 5px 20px;
   display: block;
   padding: 3px 0;
+  font-size: 22px;
 }
 
 /* Contact form */
@@ -262,6 +263,9 @@ footer#footer #copyright {
     top: 0;
     left: 50%;
     z-index: 100;
+  }
+  #menu-main .menu-item a {
+    font-size: 22px;
   }
 
   /* Logo */
