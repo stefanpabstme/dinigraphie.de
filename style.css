@@ -256,6 +256,7 @@ footer#footer #copyright {
   /* Logo */
   .site-logo {
     text-align: center;
+    margin-top: 45px;
   }
   #site-logo {
     height: 130px;
