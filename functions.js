@@ -13,23 +13,13 @@ function init () {
     jQuery( '#entry-image' ).css('height', bg_height_mobile);
   }
 
-  //Navigation
-  if (w_width < "768") {
-    toggleNav();
-  }
+  //set wrapper margin top to navigation height
   if (w_width >= "768") {
     var nav_height = $('#menu-main').height();
     $('#wrapper').css({marginTop: nav_height})
   } else {
     $('#wrapper').css({marginTop: 0})
   }
-  //if (w_width >= "768") {
-    ////center up desktop navigation
-    //var menu_width = $(".menu-main-container").width();
-    //var leftMar = menu_width * 0.5 * (-1);
-    //document.querySelector(".menu-main-container").id = 'menu-main-container';
-    //$("#menu-main-container").css({ marginLeft : leftMar });
-  //}
 }
 
 function toggleNav () {
@@ -48,6 +38,9 @@ function toggleNav () {
 }
 
 init();
+if (w_width < "768") {
+  toggleNav();
+}
 
 $(document).ready(function() {
   init();
