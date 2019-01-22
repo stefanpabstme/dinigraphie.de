@@ -106,6 +106,7 @@ a:hover {
 }
 #branding {
   position: relative;
+  margin-top: 30px;
 }
 .entry-title {
   position: absolute;
