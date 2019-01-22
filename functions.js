@@ -1,8 +1,8 @@
-function init () {
-  //screen properties
-  var w_height = jQuery(window).height();
-  var w_width = jQuery(window).width();
+//screen properties
+var w_height = jQuery(window).height();
+var w_width = jQuery(window).width();
 
+function init () {
   //set height of entry image in proportion to screen height
   var bg_height = w_height * 0.8;
   var bg_height_mobile = w_height * 0.60;
