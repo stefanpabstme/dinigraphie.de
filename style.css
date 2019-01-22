@@ -108,6 +108,10 @@ a:hover {
   position: relative;
   margin-top: 30px;
 }
+.post-edit-link {
+  position: absolute;
+  top: -50px;
+}
 .entry-title {
   position: absolute;
   top: -20px;
