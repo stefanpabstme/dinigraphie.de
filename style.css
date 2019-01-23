@@ -99,6 +99,7 @@ a:hover {
 /* Header */
 #site-logo {
   height: 70px;
+  margin: 30px;
 }
 #toggleNavButton {
   height: 50px;
@@ -260,6 +261,7 @@ footer#footer #copyright {
   }
   #site-logo {
     height: 130px;
+    margin: 0px;
   }
 
   /* Comment */
