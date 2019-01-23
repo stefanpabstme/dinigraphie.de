@@ -18,7 +18,7 @@
 
 ## Stefan
 
--Normale Navi exakt mittig ausrichten
+-Normale Navi exakt mittig ausrichten DONE
 
 -Mobile Navi animieren (Langsam auf- und zuklappen + Blende dabei drehen)
 
@@ -32,12 +32,14 @@
 
 -Favicon einbinden
 
--Galerien >> Dini
+-Galerien >> Dini DONE
 
--Feinabstimmung Schriftgrößen und Abstände >> Dini
+-Feinabstimmung Schriftgrößen und Abstände >> Dini DONE
 
--Feinabstimmung Navi, entry-title, entry-image >> Dini
+-Feinabstimmung Navi, entry-title, entry-image >> Dini DONE
 
 -Checken, ob der Content sich responsive verhält und ggf anpassen
 
--wpadminbar wieder einblenden
+-wpadminbar wieder einblenden DONE
+
+-Cronjob auf 30 Minuten runterstellen
