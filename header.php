@@ -14,6 +14,8 @@
 				  crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+	<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
 </head>
 <body <?php body_class(); ?>>
 	<div id="wrapper" class="hfeed">
